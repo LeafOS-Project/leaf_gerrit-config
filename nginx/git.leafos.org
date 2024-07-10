@@ -63,6 +63,9 @@ server {
 	location /favicon.ico {
 		proxy_pass http://localhost:8080;
 	}
+	location /robots.txt {
+		proxy_pass http://localhost:8080/robots.txt;
+	}
 
 	# git clone
 	location ~ ^.*/(HEAD|info/refs|objects/info/.*|git-(upload|receive)-pack)$ {
