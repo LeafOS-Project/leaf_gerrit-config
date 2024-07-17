@@ -64,7 +64,7 @@ server {
 		proxy_pass http://localhost:8080;
 	}
 	location /robots.txt {
-		proxy_pass http://localhost:8080/robots.txt;
+		root /var/www/git.leafos.org/static;
 	}
 
 	# git clone

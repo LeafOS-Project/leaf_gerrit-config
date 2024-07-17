@@ -34,6 +34,10 @@ server {
 		sub_filter_once off;
 	}
 
+	location /robots.txt {
+		proxy_pass http://localhost:8080/static/robots.txt;
+	}
+
 	location ^~ /git.leafos.org {
 		# Used for login redirect on git.leafos.org
 		rewrite ^/git.leafos.org?(.*)$ https://git.leafos.org/$1 permanent;
