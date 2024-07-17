@@ -16,8 +16,10 @@ All-Projects:
   - LeafOS-Project/android_external_ant-wireless_hidl
   - LeafOS-Project/android_external_chromium
   - LeafOS-Project/android_external_colorkt
+  - LeafOS-Project/android_external_dtc
   - LeafOS-Project/android_external_gptfdisk
   - LeafOS-Project/android_external_leaf-prebuilts
+  - LeafOS-Project/android_external_libcxx
   - LeafOS-Project/android_external_setupcompat
   - LeafOS-Project/android_external_themelib
   - LeafOS-Project/android_external_tinycompress
@@ -67,6 +69,7 @@ All-Projects:
   - LeafOS-Project/android_prebuilts_extract-tools
   - LeafOS-Project/android_prebuilts_tools-leaf
   - LeafOS-Project/android_prebuilts_tools-lineage
+  - LeafOS-Project/android_system_bpf
   - LeafOS-Project/android_system_core
   - LeafOS-Project/android_system_sepolicy
   - LeafOS-Project/android_system_tools_mkbootimg
@@ -77,11 +80,11 @@ All-Projects:
   - LeafOS-Project/android_vendor_leaf-apps_ThemePickerLeaf
   - LeafOS-Project/android_vendor_lineage_compat
   - LeafOS-Project/android_vendor_microg
+  - LeafOS-Project/leaf_api
   - LeafOS-Project/leaf_build
   - LeafOS-Project/leaf_crowdin
   - LeafOS-Project/leaf_devices
   - LeafOS-Project/leaf_gerrit-config
-  - LeafOS-Project/leaf_ota
   - LeafOS-Project/leaf_scripts
   - LeafOS-Project/leaf_www
 Leaf-Device-Projects:
@@ -108,7 +111,11 @@ PROJECT-MediaTek-hardware:
   - LeafOS-Devices/android_vendor_mediatek_opensource_interfaces
 PROJECT-Realme-RM6785:
   - LeafOS-Blobs/proprietary_vendor_realme_RM6785
+  - LeafOS-Blobs/proprietary_vendor_realme_RM6785-common
   - LeafOS-Devices/android_device_realme_RM6785
+  - LeafOS-Devices/android_device_realme_RM6785-common
+  - LeafOS-Devices/android_device_realme_RMX2001L1
+  - LeafOS-Devices/android_device_realme_RMX2151L1
   - LeafOS-Devices/android_kernel_realme_mt6785
 PROJECT-Samsung-exynos9820:
   - LeafOS-Blobs/proprietary_vendor_samsung_beyond0lte
@@ -145,6 +152,7 @@ PROJECT-Samsung-hardware:
   - LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos
   - LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos5
   - LeafOS-Devices/android_hardware_samsung_slsi-linaro_graphics
+  - LeafOS-Devices/android_hardware_samsung_slsi-linaro_interfaces
   - LeafOS-Devices/android_hardware_samsung_slsi-linaro_openmax
   - LeafOS-Devices/android_hardware_samsung_slsi_libbt
   - LeafOS-Devices/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal
